@@ -1,0 +1,32 @@
+{
+  "name": "webpack-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.1.21",
+    "@types/uuid": "^3.4.6",
+    "path": "^0.12.7",
+    "source-map-loader": "^0.2.4",
+    "styled-components": "^4.4.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "uuid": "^3.3.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
